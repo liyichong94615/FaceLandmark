@@ -1,0 +1,13 @@
+﻿  pch.cpp
+  dllmain.cpp
+  Face.cpp
+C:\Users\Administrator\source\repos\Face\Face\Face.cpp(5,35): warning C4273: 'CreateFace': inconsistent dll linkage
+C:\Users\Administrator\source\repos\Face\Face\Face.h(1964,30): message : see previous definition of 'CreateFace'
+C:\Users\Administrator\source\repos\Face\Face\Face.cpp(9,32): warning C4273: 'DeleteFace': inconsistent dll linkage
+C:\Users\Administrator\source\repos\Face\Face\Face.h(1965,25): message : see previous definition of 'DeleteFace'
+  Generating Code...
+C:\Users\Administrator\source\repos\Face\Face\dllmain.cpp : warning C4747: Calling managed '_DllMain@12': Managed code may not be run under loader lock, including the DLL entrypoint and calls reached from the DLL entrypoint
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  dllmain.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+     Creating library C:\Users\Administrator\source\repos\Face\Debug\Face.lib and object C:\Users\Administrator\source\repos\Face\Debug\Face.exp
+  Face.vcxproj -> C:\Users\Administrator\source\repos\Face\Debug\Face.dll
